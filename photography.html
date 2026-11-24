@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d0f">
+  <meta name="description" content="Photography by Damian Szydlowski. Explore the collection and get in touch about a shoot.">
+  <title>Photography — Damian Szydlowski</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="assets/vendor/lenis.css">
+  <script type="module" src="scripts/main.js"></script>
+</head>
+<body class="photography-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner shell">
+      <a class="wordmark" href="index.html" aria-label="Damian Szydlowski, home">damian<span>.</span>szydlowski</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">Menu <span aria-hidden="true">+</span></button>
+      <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
+        <a href="index.html#about"><span class="nav-number">01</span> Me</a>
+        <a href="index.html#background"><span class="nav-number">02</span> Background</a>
+        <a href="index.html#work"><span class="nav-number">03</span> Projects</a>
+        <a href="#collection" aria-current="page"><span class="nav-number">04</span> Photography</a>
+        <a class="nav-connect" href="#inquire">Connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="gallery-intro shell" aria-labelledby="gallery-title">
+      <div class="gallery-intro-copy"><p class="eyebrow">Another perspective</p><h1 id="gallery-title">Photography<br><span class="muted">by Damian<span class="accent">.</span></span></h1><p class="hero-detail">People, objects, and moments.<br>A collection of what catches my eye.</p><div class="button-row"><a class="button button-solid" href="#collection">View collection <span aria-hidden="true">↓</span></a><a class="text-link" href="#inquire">Plan a shoot <span aria-hidden="true">↗</span></a></div></div>
+      <figure id="featured-photograph" class="featured-photograph media-frame"><div class="feature-empty"><span class="mono">Collection in progress</span><p>Featured photograph to come.</p></div></figure>
+      <div class="hero-footnote mono"><span>A study in light &amp; observation</span><a href="index.html">Explore engineering <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section id="collection" class="gallery-section section shell" aria-labelledby="collection-title">
+      <div class="section-heading"><p class="eyebrow">01 / Collection</p><div><h2 id="collection-title">Through the lens.</h2><p>Select a photograph for a closer look.</p></div></div>
+      <div class="section-toolbar"><div id="photo-filters" class="filters" role="group" aria-label="Filter photographs"></div><p id="photo-count" class="mono result-count" role="status" aria-live="polite"></p></div>
+      <p class="preview-note">Placeholder studies — original photographs will take their place.</p>
+      <div id="photo-grid" class="photo-grid"></div>
+      <noscript><p>The interactive gallery needs JavaScript. You can still read about photography and contact me below.</p></noscript>
+    </section>
+    <section id="about-photography" class="photo-about section shell" aria-labelledby="photo-about-title">
+      <div><p class="eyebrow">02 / Behind the camera</p><h2 id="photo-about-title">A different<br>way of looking.</h2></div><div class="photo-about-copy"><p>Photography is another part of how I explore the world, alongside engineering and the things I build.</p><p class="muted">More about my photography approach is coming soon.</p><div class="equipment-note"><span class="mono">Equipment</span><p>Camera and lens details to come.</p></div></div>
+    </section>
+    <section id="inquire" class="inquiry-section section shell" aria-labelledby="inquiry-title">
+      <div class="inquiry-panel"><div><p class="eyebrow">03 / Get in touch</p><h2 id="inquiry-title">Something<br>worth capturing?</h2></div><div class="inquiry-copy"><p>Tell me about the shoot you have in mind.</p><a class="button button-solid" href="mailto:damianszydlowski1000@gmail.com?subject=Photography%20inquiry&amp;body=Hi%20Damian%2C%0A%0AShoot%20type%3A%20%0APreferred%20date%3A%20%0ALocation%3A%20%0ADetails%3A%20%0A">Email about a shoot <span aria-hidden="true">↗</span></a><div class="email-copy-row"><a href="mailto:damianszydlowski1000@gmail.com" class="email-address">damianszydlowski1000@gmail.com</a><button id="copy-email" class="icon-button" type="button" aria-label="Copy email address" data-email="damianszydlowski1000@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg></button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></div></div>
+    </section>
+  </main>
+    <div class="footer-bottom shell mono">
+      <p>&copy; <span data-year>2026</span> Damian Szydlowski</p>
+      <p>Made with lots of white Monster and Red Bull.</p>
+    </div>
+  <div id="footer" class="footer-region">
+  <div data-footer-react hidden></div>
+  <footer class="site-footer" data-footer-fallback>
+    <div class="footer-static-wordmark" aria-hidden="true">damian</div>
+  </footer>
+  </div>
+  <dialog id="photo-dialog" class="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-toolbar"><span id="lightbox-position" class="mono" aria-live="polite"></span><button class="icon-button" type="button" data-close-dialog aria-label="Close photograph">✕</button></div><div class="lightbox-stage" id="lightbox-stage"></div><div class="lightbox-bottom"><div class="lightbox-caption"><h2 id="lightbox-title"></h2><p id="lightbox-caption"></p></div><div class="lightbox-controls"><button id="photo-previous" class="icon-button" type="button" aria-label="Previous photograph">←</button><button id="photo-next" class="icon-button" type="button" aria-label="Next photograph">→</button></div></div></dialog>
+</body>
+</html>

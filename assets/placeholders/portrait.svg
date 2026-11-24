@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#171a1c"/>
+  <g stroke="#4b4741" fill="none" stroke-width="2">
+    <path d="M440 300h-50v50M760 350v-50h-50M390 550v50h50M710 600h50v-50"/>
+    <path d="M580 450h40M600 430v40"/>
+  </g>
+  <text x="600" y="687" text-anchor="middle" fill="#a1a6ac" font-family="monospace" font-size="22" letter-spacing="3">PERSONAL PHOTO TO COME</text>
+</svg>
